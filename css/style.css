@@ -44,7 +44,7 @@ body {
 .wrapper {
   overflow: hidden;
   display: flex;
-  font-display: column;
+  flex-direction: column;
   min-height: 100%;
 }
 /*--------------------*/
@@ -56,4 +56,28 @@ body {
 [class*="__container"]{
   max-width: 1057px;
   margin: 0 auto;
+}
+
+
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__button {
+}
+.button {
+}
+.button-blue {
 }
